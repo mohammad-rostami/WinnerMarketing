@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ir.co.ahs.app.mob.WinnerMarketing"
+    android:installLocation="preferExternal">
+
+    <!--<uses-permission android:name="android.permission.READ_CALENDAR" />-->
+    <!--<uses-permission android:name="android.permission.WRITE_CALENDAR" />-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--<uses-permission android:name="com.android.alarm.permission.SET_ALARM" />-->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ServicesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.CustomerDetailActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.AddCustomerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.TestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.AlarmActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.SuccessMessageListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.SuccessMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.TestItemActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.TargetActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ProjectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ProjectsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.CustomerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.AddProjectActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.DashBoardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.CreditActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.OrderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.PollActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.MessageAddActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ContactUsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ProfileActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.weekMessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.MeditationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="fbab01128d8c434cc2897ec0184f1b980d8468fd" />
+
+        <receiver
+            android:name="ir.co.ahs.app.mob.WinnerMarketing.ExampleAppWidgetProvider"
+            android:label="8-bit cloud widget 1">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget1_info" />
+        </receiver>
+
+
+        <!--<service android:name="ir.co.ahs.app.mob.WinnerMarketing.NotificationService">-->
+
+        <!--</service>-->
+
+        <receiver android:name="ir.co.ahs.app.mob.WinnerMarketing.MyReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="ir.co.ahs.app.mob.WinnerMarketing.Tasks"></receiver>
+
+        <receiver android:name="ir.co.ahs.app.mob.WinnerMarketing.SmsListener">
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Projects\\WM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "D:\\Projects\\WM\\app\\src\\main\\res\\values-hdpi\\dimens.xml",
+                    "from": {
+                        "startLines": "3,2,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "100,55,147",
+                        "endColumns": "46,44,42",
+                        "endOffsets": "142,95,185"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,102,147",
+                        "endColumns": "46,44,42",
+                        "endOffsets": "97,142,185"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Surface Pro 4\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\2ea444ddd95f4598c2eb412dce3cb49f\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "190",
+                        "endLines": "9",
+                        "endColumns": "13",
+                        "endOffsets": "462"
+                    }
+                }
+            ]
+        }
+    ]
+}

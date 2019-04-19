@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: pecpayment-release:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pecpayment-release.aar/4c48c50ed90406510b082e84851ff0f9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/pecpayment-release.aar/4c48c50ed90406510b082e84851ff0f9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
